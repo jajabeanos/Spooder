@@ -1,0 +1,7 @@
+#problem-statement,#existing-solutions{padding:26px 30px;background:var(--rust);border-radius:var(--r)}
+#problem-statement img,#existing-solutions img{display:block;width:100%;max-height:380px;object-fit:contain;border-radius:14px;background:var(--rust-d)}
+#problem-statement p,#existing-solutions p{margin-top:18px;font-size:1.15rem}
+.resource-list{margin:16px 0 0;padding:6px 20px;list-style:none;background:var(--cream);color:var(--red);border-radius:16px}
+.resource-list[hidden]{display:none}
+.resource-list li{padding:8px 0}
+.resource-list a{color:var(--red);font-weight:600}

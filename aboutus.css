@@ -1,0 +1,31 @@
+#meet-the-team {
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(270px,1fr));
+    gap:22px
+}
+
+#meet-the-team h1 {
+    grid-column:1/-1;
+    margin-bottom:0
+}
+#meet-the-team>div,#our-story{padding:22px;background:var(--rust);border-radius:var(--r)}
+#meet-the-team img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;margin-bottom:14px;border-radius:14px;background:var(--rust-d)}
+#meet-the-team ul{list-style:none;margin:0;padding:0}
+#meet-the-team li{margin-bottom:6px}
+#meet-the-team li p{margin:0;padding:6px 14px;background:rgba(253,240,229,.14);border-radius:12px}
+#our-story{margin-top:0}
+
+#story-carousel{position:relative;overflow:hidden;border-radius:16px;background:var(--rust-d)}
+.story-slide{display:none}
+.story-slide.active{display:block;animation:storyFade .6s ease}
+.story-slide img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;margin:0;border-radius:0}
+@keyframes storyFade{from{opacity:0}to{opacity:1}}
+.story-carousel-dots{text-align:center;margin-top:14px}
+.story-dot{height:15px;width:15px;margin:0 4px;padding:0;border:0;border-radius:50%;background:#bbb;cursor:pointer;transition:background-color .4s ease}
+.story-dot.active{background:var(--cream)}
+
+.caption{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 8px;
+}

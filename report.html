@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report - Spooder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="report.css">
+        <script src="script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1" defer></script>
+    <script src="report.js" defer></script>
+</head>
+<body>
+    <nav role="navigation">
+        <div id="menuToggle">
+            <input type="checkbox" id="menuCheckbox" />
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <ul id="menu">
+                <li><a href="index.html" target="_self">Home</a></li>
+                <li><a href="report.html" target="_self">Report</a></li>
+                <li><a href="ourproduct.html" >Our Product</a></li>
+                <li><a href="aboutus.html" target="_self">About Us</a></li>
+                <li><a href="research.html" target="_self">Research</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="toxic-gases-report">
+            <h1>Toxic Gas Levels</h1>
+            <div id="toxic-gases-chart-container">
+                <canvas id="toxic-gases-chart"></canvas>
+            </div>
+            <h6>CO, CO2 and LPG levels based on the past 24 hours</h6>
+        </section>
+
+        <section id="temperature-report">
+            <h1>Temperature</h1>
+            <div id="temperature-chart-container">
+                <canvas id="temperature-chart"></canvas>
+            </div>
+            <h6>Temperature values based on the past 24 hours</h6>
+        </section>
+
+        <section id="humidity-report">
+            <h1>Humidity</h1>
+            <div id="humidity-chart-container">
+                <canvas id="humidity-chart"></canvas>
+            </div>
+            <h6>Humidity values based on the past 24 hours</h6>
+        </section>
+    </main>
+</body>
+</html>

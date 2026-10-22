@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Product - Spooder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="ourproduct.css">
+        <script src="script.js" defer></script>
+    <script src="ourproduct.js" defer></script>
+</head>
+
+<body>
+    <nav role="navigation">
+        <div id="menuToggle">
+            <input type="checkbox" id="menuCheckbox" />
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <ul id="menu">
+                <li><a href="index.html" target="_self">Home</a></li>
+                <li><a href="report.html" target="_self">Report</a></li>
+                <li><a href="ourproduct.html" >Our Product</a></li>
+                <li><a href="aboutus.html" target="_self">About Us</a></li>
+                <li><a href="research.html" target="_self">Research</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="header">
+            <h1>Spooder, a robot assistant for caveminers</h1>
+            <img src="assets/spooder.jpg" alt="Spooder">
+        </section>
+
+        <section id="product-features"> <!--supposed to be a carousel-->
+            <h2 id="feature">Feature</h2>
+            <p id="feat-mapping">How its related</p>
+            <button id="prev-feature">Previous</button>
+            <button id="next-feature">Next</button>
+        </section>
+
+        <section id="upcoming-features">
+            <h2>Upcoming Features</h2>
+            <div class="upcoming-feature" id="ft1">
+                <img src="assets/air-quality-sensor.png" alt="AQI icon">
+                <h3>Calculate AQI</h3>
+                <p>Monitoring airborne particles can help assess air quality and potential health risks in the underground environment.</p>
+            </div>
+
+            <div class="upcoming-feature" id="ft2">
+                <img src="assets/map.png" alt="Feature 2">
+                <h3>Creates a map of the cave</h3>
+                <p>Unfamiliar underground layouts can make spatial awareness and route planning difficult.</p>
+            </div>
+
+            <div class="upcoming-feature" id="ft3">
+                <img src="assets/history.png" alt="Feature 3">
+                <h3>Environmental assessments may benefit from organized sampling records and historical data.</h3>
+            </div>
+        </section>
+    </main>
+</body>

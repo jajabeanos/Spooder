@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Spooder</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <nav role="navigation">
+        <div id="menuToggle">
+            <input type="checkbox" id="menuCheckbox" />
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <ul id="menu">
+                <li><a href="index.html" target="_self">Home</a></li>
+                <li><a href="report.html" target="_self">Report</a></li>
+                <li><a href="ourproduct.html" >Our Product</a></li>
+                <li><a href="aboutus.html" target="_self">About Us</a></li>
+                <li><a href="research.html" target="_self">Research</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <navbar>
+        <div class="cameraicon">
+            <img src="assets/security-camera.png" id="camera-icon" alt="Live Camera Icon" href="#camera-feed">
+            <label for="camera-icon">Live footage</label>
+        </div>
+        <div class="statusicon">
+            <img src="assets/search.png" id="status-icon" alt="Status Icon" href="#cave-status">
+            <label for="status-icon">Status</label>
+        </div>
+        <div class="safetytipsicon">
+            <img src="assets/shield.png" id="safety-icon" alt="Safety Tips Icon" href="#safety-tips">
+            <label for="safety-icon">Safety precautions</label>
+        </div>
+    </navbar>
+
+    <main>
+        <section id="camera-feed">
+            <h1>Live Camera Footage</h1>
+            <button id="camera-feed-button">View Live Feed</button>
+            <p>Due to certain issues, the live camera feed is currently unavailable as an embed</p>
+        </section>
+
+        <section id="cave-status">
+            <h1 id="status">Status:</h1>
+            <div id="status-values">
+                <p id="temperature">Temperature: ?</p>
+                <p id="humidity">Humidity: ?%</p>
+                <p id="mq9">CO2, CO and LPG Levels: ?ppm</p>
+            </div>
+            <h5>Values are updated every 5 minutes</h5>
+        </section>
+
+        <section id="safety-tips">
+            <h2>Safety Tips</h2>
+            <p id="safety-tips-text"></p>
+            <p id="safety-notesnresources">Emergency Response. <br> In Malaysia, call 999 for immediate emergencies. For incidents underground, notify the mine's control room or designated emergency response team as soon as possible. 
+                <br> <a href="https://archive.cdc.gov/www_cdc_gov/niosh/mining/topics/atmosphericmonitoring.html" target="_blank" class="resource-link">NIOSH — Atmospheric Monitoring</a> 
+                <br> <a href="https://www.malaysia.gov.my/en/categories/safety-and-community/public-safety/mers-999-emergency-line" target="_blank" class="resource-link">Malaysia Emergency Response Services (999)</a>
+
+</p>
+        </section>
+    </main>
+</body>
+</html>
+
