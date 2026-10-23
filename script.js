@@ -106,8 +106,9 @@ const Spooder = (() => {
   }
 
   /*  home page: live values, status, safety tip  */
-  document.getElementById("camera-feed-button").onclick = function () {
-    window.location.href = "http://192.168.133.xx";
+  const camBtn = document.getElementById("camera-feed-button");
+  if (camBtn) camBtn.onclick = () => {
+     window.location.href = "http://192.168.137.xx"; // ADJUSTABLE: replace xx with camera feed ip
   };
 
   const statusEl = document.getElementById('status');
