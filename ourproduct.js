@@ -1,4 +1,3 @@
-// Edit these to match your real features. "why" = how it relates to the problem.
 const FEATURES = [
   { title: 'Environmental Monitoring and Safety Reports', why: 'Environmental readings can be difficult to interpret quickly when information is scattered across different measurements.' },
   { title: 'Six-Legged Locomotion and Obstacle Detection', why: 'Underground passages may contain uneven surfaces and obstacles that make inspection difficult.' },

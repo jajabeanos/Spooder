@@ -1,4 +1,3 @@
-// Replace the placeholder titles and links with your real sources.
 const RESOURCES = {
   'resources-problem': [
     { title: 'Pneumoconiosis cases are at a 50-year high in Appalachia', url: 'https://www.theguardian.com/us-news/2026/sep/20/us-coalminers-black-lung-disease' },
